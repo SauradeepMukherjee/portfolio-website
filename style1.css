@@ -1,0 +1,259 @@
+.skills {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.container1 {
+    width: 800px;
+    background: #081b29;
+    margin: 50px 15px;
+    padding: 20px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgb(235, 231, 7);
+}
+
+.container1 .skill-box {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.skill-box img {
+    width: 20px;
+    float: left;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ededed;
+}
+
+.skill-box .skill-bar {
+    width: 100%;
+    height: 12px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.skill-bar .skill-per.html {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.css {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.javascript {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 65%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.java {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 70%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.python {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #081b29;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: rgb(235, 231, 7);
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(235, 231, 7);
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+
+
+/* keyframes */
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skills {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.container1 {
+    width: 800px;
+    background: #081b29;
+    margin: 50px 15px;
+    padding: 20px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgb(235, 231, 7);
+}
+
+.container1 .skill-box {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.skill-box img {
+    width: 20px;
+    float: left;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ededed;
+}
+
+.skill-box .skill-bar {
+    width: 100%;
+    height: 12px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.skill-bar .skill-per.html {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.css {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.javascript {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 65%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.java {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 70%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-bar .skill-per.python {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(235, 231, 7);
+    border-radius: 6px;
+    animation: progress 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #081b29;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: rgb(235, 231, 7);
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(235, 231, 7);
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+
+
+/* keyframes */
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
